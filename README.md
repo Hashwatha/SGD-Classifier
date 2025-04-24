@@ -51,6 +51,8 @@ print("Confufion Matrix:")
 print(cm)
 classification_report1=classification_report(y_test,y_pred)
 print(classification_report1)
+print("Name:Hashwatha M")
+print("Reg no:212223240051")
 ```
 ![image](https://github.com/user-attachments/assets/9f58a32a-2bd7-4d30-bc78-35dfd9346434)
 
