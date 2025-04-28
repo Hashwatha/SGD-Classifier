@@ -29,7 +29,7 @@ To write a program to predict the type of species of the Iris flower using the S
 
 11.Generate and Display Classification Report
 
-## Program // Output:
+## Program : 
 ```
 /*
 Program to implement the prediction of iris species using SGD Classifier.
@@ -59,8 +59,6 @@ y_pred=sgd_clf.predict(x_test)
 accuracy=accuracy_score(y_test,y_pred)
 print(f"Accuracy: {accuracy:.3f}")
 ```
-![image](https://github.com/user-attachments/assets/76807f43-844b-48ac-874c-ffa83068a21d)
-
 ```
 cm=confusion_matrix(y_test,y_pred)
 print("Confufion Matrix:")
@@ -70,8 +68,18 @@ print(classification_report1)
 print("Name:Hashwatha M")
 print("Reg no:212223240051")
 ```
+## Output:
+## df.head()
+![image](https://github.com/user-attachments/assets/6dd31990-3237-4376-9484-d98f90a24a8e)
+
+## Accuracy
+![image](https://github.com/user-attachments/assets/f7e1119d-76a2-46e4-afe5-846afcdbb1de)
+
+## Confusion matrix
+
 ![image](https://github.com/user-attachments/assets/9f58a32a-2bd7-4d30-bc78-35dfd9346434)
 
+## Classification report
 ![image](https://github.com/user-attachments/assets/249fe2af-a8aa-4d33-a5e6-6ec5ecbbddd4)
 
 ## Result:
